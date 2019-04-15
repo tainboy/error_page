@@ -29,7 +29,7 @@ body {
   line-height: 1.4;
 }
 
-.notfound .notfound-404 {
+.notfound .notfound-error {
   position: absolute;
   left: 0;
   top: 0;
@@ -37,7 +37,7 @@ body {
   height: 150px;
 }
 
-.notfound .notfound-404 h1 {
+.notfound .notfound-error h1 {
   font-family: 'Passion One', cursive;
   color: #00b5c3;
   font-size: 150px;
@@ -69,6 +69,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   margin-top: 0;
+  width: 100%;
 }
 
 .notfound p {
@@ -106,7 +107,7 @@ body {
   .notfound {
     text-align: center;
   }
-  .notfound .notfound-404 {
+  .notfound .notfound-error {
     position: relative;
     width: 100%;
     margin-bottom: 15px;
